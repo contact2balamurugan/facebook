@@ -1,7 +1,7 @@
 import React from 'react';
-const Footer=()=>{
+const Footer=(props)=>{
     return (
-        <div>Footer</div>
+        <div>Footer= The length of Item={props.length}</div>
     )
 }
 export default Footer
